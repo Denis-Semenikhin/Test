@@ -21,10 +21,17 @@
   top: 50px;
 }
 #gora {
-  background-image: url(https://i.artfile.ru/2000x1333_1135577_[www.ArtFile.ru].jpg);
-  background-size: cover;
+  background-image: url("../img/logo-bez-fona.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 300px;
 }
 #reka {
   background-image: url(https://vsegda-pomnim.com/uploads/posts/2022-03/1647174517_1-vsegda-pomnim-com-p-reka-les-foto-1.jpg);
   background-size: cover;
+}
+.blok {
+  height: 500px;
+  border: 1px solid #000;
 }
