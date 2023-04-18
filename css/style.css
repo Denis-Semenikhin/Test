@@ -89,34 +89,74 @@ h6 {
 }
 
 /*Конец обнуления CSS*/
-.blok {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
+.wraper {
+  width: 0 auto;
 }
-.blok .blok__row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  border: 20px solid #f3e410;
-  margin: 20px;
-}
-.blok .blok__row .blok__column {
-  border: 20px solid #dd0cc1;
-}
-.blok .blok__row .blok__column .blok__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #11aeca;
+.wraper .hi {
   padding: 50px;
-  font-size: 50px;
+  padding-top: 30px;
+  background-color: #445162;
+  height: 323px;
+  width: 100%;
+}
+.wraper .hi .hi__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.wraper .hi .hi__row .hi__body .hi__title {
+  font-family: Arial;
+  font-size: 60px;
+  line-height: 1.2;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
   color: #ffffff;
-  font-weight: 700;
+  margin-bottom: 30px;
+}
+.wraper .hi .hi__row .hi__body li {
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  background-image: url(../img/check_icon_349.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-left: 40px;
+  margin-bottom: 17px;
+}
+.wraper .what {
+  padding: 50px;
+}
+.wraper .what .what__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wraper .what .what__row .what__img {
+  margin-right: 30px;
+}
+.wraper .what .what__row .what__body .what__title {
+  font-family: Arial;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #445161;
+  margin-bottom: 30px;
+}
+.wraper .what .what__row .what__body .what__text {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+}
+.wraper .what .what__row .what__body .what__text p {
+  margin-bottom: 30px;
 }
