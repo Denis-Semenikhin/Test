@@ -8,7 +8,7 @@
     <title>Document</title>
   </head>
   <body>
-<header class="header"></header>
-<footer class="footer"></footer>
+    <!-- @import "header.html" -->
+    <!-- @import "footer.html" -->
   </body>
 </html>
