@@ -88,3 +88,65 @@ h6 {
 }
 
 /*Конец обнуления CSS*/
+* {
+  background-color: #e63ee6;
+  color: aliceblue;
+}
+
+.content {
+  display: flex;
+}
+
+.card {
+  background-color: #630b0b;
+  margin: 20px;
+  flex: 0 1 33.333%;
+}
+
+.card-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.img-cont-row {
+  flex: 0 0 33.333%;
+  position: relative;
+  min-height: 200px;
+}
+
+.img-item-row {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.img-cont {
+  max-width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  background-color: #630b0b;
+  position: relative;
+}
+
+.img-item {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text {
+  background-color: #630b0b;
+  padding: 30px;
+  font-size: 20px;
+}
